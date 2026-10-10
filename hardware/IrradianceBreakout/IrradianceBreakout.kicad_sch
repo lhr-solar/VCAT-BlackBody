@@ -1,0 +1,124 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "552486ca-d81b-4f74-b370-4ec84ac435dd")
+	(paper "A4")
+	(title_block
+		(title "Blackbody Irradiance Breakout")
+		(rev "A")
+		(company "Longhorn Racing Solar - VCAT Telemetry")
+	)
+	(lib_symbols)
+	(text "Photodiode"
+		(exclude_from_sim no)
+		(at 25.4 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "7fad1d17-e3c5-46b6-b4ea-ba6411f48666")
+	)
+	(rectangle
+		(start 25.4 30.48)
+		(end 101.6 76.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f379af87-49a2-4ca7-b3d6-74d5d610e593")
+	)
+	(text "D?: Vishay BPW34 / BPW34S silicon PIN photodiode\n(430-1100 nm, peak ~900 nm, 7.5 mm2).\n\nAnode -> PD_A, Cathode -> PD_K.\nNo bias, no local electronics: the TIA lives on the\nmain Blackbody board (photovoltaic mode).\n\nPlace on the TOP side, centered on the window.\nOptional: PTFE/opal diffuser over it for cosine response."
+		(exclude_from_sim no)
+		(at 26.669999999999998 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3425a3bc-f01d-497e-b456-548593b3296d")
+	)
+	(text "Harness Connector"
+		(exclude_from_sim no)
+		(at 106.68 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "cf3498dc-6b21-49e4-8ece-b4fbdfc519f4")
+	)
+	(rectangle
+		(start 106.68 30.48)
+		(end 177.8 76.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f743e312-8c1d-484f-9399-75f6e6d678f4")
+	)
+	(text "J?: same Nano-Fit series as the main board end.\nPD_A, PD_K (twisted pair), BRK_DET, GNDA, SHIELD.\n\nBRK_DET: tie to GNDA on THIS board so the main\nboard can detect a missing/unplugged breakout.\nSHIELD: leave unconnected here (terminated at the\nmain board only)."
+		(exclude_from_sim no)
+		(at 107.95 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "96eef067-e0c8-4ba2-9572-ac4716968a1e")
+	)
+	(text "Mechanical"
+		(exclude_from_sim no)
+		(at 182.88 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "1abe2821-324a-4f6e-83f2-09de0f8c582e")
+	)
+	(rectangle
+		(start 182.88 30.48)
+		(end 266.7 76.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1faa095d-ef97-481c-8b97-272f307e899b")
+	)
+	(text "Mount on the underside of the top shell behind a\nwindow (Ravi); match the module tilt (Aarav).\nKeep the board tiny; 2 mounting holes.\nOld breakout: Power-Generation-Blackbody/\nHardware/IrradianceBreakout (TSL2591, I2C)."
+		(exclude_from_sim no)
+		(at 184.15 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "59455e67-ba37-47d0-8b14-12d218ab4240")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

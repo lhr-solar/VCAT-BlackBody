@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "31778d10-762b-4e25-9c92-926cad212910")
+	(paper "A4")
+	(title_block
+		(title "Thermocouple Input Channel")
+		(rev "A")
+		(company "Longhorn Racing Solar - VCAT Telemetry")
+	)
+	(lib_symbols)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 25.4 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "534c9a4d-362b-4450-b0f1-e4fe0d6a993b")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec6bd449-4eb7-462c-bf08-e197c9da2610")
+	)
+	(hierarchical_label "TCP"
+		(shape output)
+		(at 271.78 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17e89408-eeef-43e6-bb8a-43b09cc5e027")
+	)
+	(hierarchical_label "TCN"
+		(shape output)
+		(at 271.78 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "478ba7db-ca94-4a5e-8e77-e94e94650a83")
+	)
+	(text "Thermocouple Connector"
+		(exclude_from_sim no)
+		(at 35.56 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "42407365-ac53-4774-83ab-b94d16ea8193")
+	)
+	(rectangle
+		(start 35.56 25.4)
+		(end 99.06 66.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7eb2239f-449f-46e3-ae5e-9144b9649d4b")
+	)
+	(text "J?: K-type TC input. Options:\n - Mini K-type socket (yellow, Omega PCC-SMP-K style)\n - or 2-pin Nano-Fit if the harness lead prefers\nLabel pins TC+ (yellow tape lead) / TC-.\nCopper between connector and ADC = cold junction;\nkeep both TC traces symmetric."
+		(exclude_from_sim no)
+		(at 36.830000000000005 26.669999999999998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9a3a0d9b-9152-41e0-bece-b15aa8e05c1c")
+	)
+	(text "Open-TC Bias"
+		(exclude_from_sim no)
+		(at 102.87 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "a8c22907-1747-428d-98dd-fe0d58953716")
+	)
+	(rectangle
+		(start 102.87 25.4)
+		(end 157.48 66.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5ab2c7f1-f370-4da6-bd29-a6766b8aeccb")
+	)
+	(text "1M from TC+ to +3.3V\n1M from TC- to GND\nSets common mode near mid-supply\nand drives the reading to +FS if\nthe thermocouple is unplugged/open."
+		(exclude_from_sim no)
+		(at 104.14 26.669999999999998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b091e553-9f02-4e13-8247-ccf18bd7be1e")
+	)
+	(text "Input Filter"
+		(exclude_from_sim no)
+		(at 161.29 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "160006ce-8878-44f5-899f-62cdd5683098")
+	)
+	(rectangle
+		(start 161.29 25.4)
+		(end 220.98 66.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c8676a9c-6752-4e14-b8f4-a45e1966bae2")
+	)
+	(text "Series 1k on each line,\n100 nF differential (TC+ to TC-),\n10 nF each line to GND (common mode).\nWrite the cutoffs on the sheet\n(review comment from strain gauge)."
+		(exclude_from_sim no)
+		(at 162.56 26.669999999999998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b5d35d5e-6409-4100-8ac5-c4093f3c4e9c")
+	)
+	(text "ESD + Test Points"
+		(exclude_from_sim no)
+		(at 224.79 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "7b686d42-d0d4-4f12-a0d6-7ff7a22f5510")
+	)
+	(rectangle
+		(start 224.79 25.4)
+		(end 266.7 66.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2e834f9b-055e-47cc-a70a-e59803bc45cc")
+	)
+	(text "TPD2EUSB30 on TC+/TC-,\npin 3 -> GND, at the connector.\n\nTP on TCP and TCN."
+		(exclude_from_sim no)
+		(at 226.06 26.669999999999998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c8cc0606-7ae5-41a9-851a-68a432c31841")
+	)
+	(embedded_fonts no)
+)

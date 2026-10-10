@@ -1,0 +1,529 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "62ba8dfe-e0e9-48c1-90d4-3e1512389a55")
+	(paper "A4")
+	(title_block
+		(title "Thermocouple ADC")
+		(rev "A")
+		(company "Longhorn Racing Solar - VCAT Telemetry")
+	)
+	(lib_symbols)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 25.4 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14edca43-9c4e-4421-b635-9c5ecb3f9aff")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfffb102-bd63-41a6-a978-7f131cf2f9fd")
+	)
+	(hierarchical_label "SPI_SCK"
+		(shape input)
+		(at 25.4 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00749b88-1968-4a9d-8b7d-7d49ce635f30")
+	)
+	(hierarchical_label "SPI_MOSI"
+		(shape input)
+		(at 25.4 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "549e3a10-7692-4ef1-95b2-9155e7276893")
+	)
+	(hierarchical_label "TC_ADC_CS"
+		(shape input)
+		(at 25.4 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57ba8129-8637-4cfa-ba68-5bb1211087c1")
+	)
+	(hierarchical_label "SPI_MISO"
+		(shape output)
+		(at 271.78 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3eba4e43-fa61-4e21-a26e-2c9ab2a0d83e")
+	)
+	(text "Thermocouple Channels"
+		(exclude_from_sim no)
+		(at 35.56 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "b22a3018-36eb-4251-ac50-87a4bb472be8")
+	)
+	(sheet
+		(at 45.72 27.94)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dedb1a1b-2ed4-4982-a0d7-8b88c87cf280")
+		(property "Sheetname" "TC_Channel0"
+			(at 45.72 27.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		)
+		(property "Sheetfile" "TC_Channel.kicad_sch"
+			(at 45.72 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		)
+		(pin "+3.3V" input
+			(at 45.72 30.48 180)
+			(uuid "abef7611-aee1-41ba-8ccd-a4e6ecd8ba28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 45.72 33.02 180)
+			(uuid "6afb663b-5975-47db-82b2-b821777cc0dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCP" output
+			(at 68.58 30.48 0)
+			(uuid "ceb37869-9401-4b1f-abb9-c549ee47d37b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCN" output
+			(at 68.58 33.02 0)
+			(uuid "7adee558-5e72-4620-be5c-c1896a5b1d43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/59189416-5d51-4d24-8c42-809517448b9b"
+					(page "12")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 41.91 30.48) (xy 45.72 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42329838-b600-4c18-a881-a3c225f2ebde")
+	)
+	(label "+3.3V"
+		(at 41.91 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73835f33-6028-4498-b56c-904ad09193c6")
+	)
+	(wire
+		(pts
+			(xy 41.91 33.02) (xy 45.72 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5aa08d9-5a14-4bb8-beb3-1b1e3ef8ac66")
+	)
+	(label "GND"
+		(at 41.91 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52f52125-e437-4bc7-a4c4-022fca36c9c3")
+	)
+	(wire
+		(pts
+			(xy 68.58 30.48) (xy 72.39 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8474b67-9abd-4b41-82da-1cf60a188f50")
+	)
+	(label "TC0P"
+		(at 72.39 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c7f9190-da74-44d4-907e-b5208ff22c1c")
+	)
+	(wire
+		(pts
+			(xy 68.58 33.02) (xy 72.39 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7ef720-f926-41a4-bfb8-99ef7ec1a454")
+	)
+	(label "TC0N"
+		(at 72.39 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "003d1b06-8b5f-48f3-bbd5-376690a513dd")
+	)
+	(sheet
+		(at 45.72 50.8)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "640f9422-f4a8-43eb-92f9-235dd3a04ddb")
+		(property "Sheetname" "TC_Channel1"
+			(at 45.72 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		)
+		(property "Sheetfile" "TC_Channel.kicad_sch"
+			(at 45.72 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		)
+		(pin "+3.3V" input
+			(at 45.72 53.34 180)
+			(uuid "2cd88cad-6208-4b80-a9a0-1d2a3899b4eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 45.72 55.88 180)
+			(uuid "21672d8f-2e81-4b30-9161-067e9ab4a87e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCP" output
+			(at 68.58 53.34 0)
+			(uuid "2d876931-8b03-471f-8b18-d09a6523ba64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCN" output
+			(at 68.58 55.88 0)
+			(uuid "33c1305d-7a76-4584-9052-03013bdebac5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/59189416-5d51-4d24-8c42-809517448b9b"
+					(page "13")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 41.91 53.34) (xy 45.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945d9140-71d9-4956-8e5a-7ddc7ce47bef")
+	)
+	(label "+3.3V"
+		(at 41.91 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12926b3e-fc6c-4fad-9c2d-cd2b41ad4df7")
+	)
+	(wire
+		(pts
+			(xy 41.91 55.88) (xy 45.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9383180c-a2ab-467b-b518-c2a5acecb5c1")
+	)
+	(label "GND"
+		(at 41.91 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e1b8c48-99cc-4815-9e05-d639260a3354")
+	)
+	(wire
+		(pts
+			(xy 68.58 53.34) (xy 72.39 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f2def9-ffbb-4e78-871c-cf4eab5e555a")
+	)
+	(label "TC1P"
+		(at 72.39 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fcace3d-d7cd-4f1e-8212-f81b3d82fd8a")
+	)
+	(wire
+		(pts
+			(xy 68.58 55.88) (xy 72.39 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbb24f7-d84d-4080-8ba3-a6f1dbcff429")
+	)
+	(label "TC1N"
+		(at 72.39 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fd4708c-b701-423d-b821-146781fa9165")
+	)
+	(text "ADS1118 (16-bit ADC + cold-junction sensor)"
+		(exclude_from_sim no)
+		(at 104.14 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "e168605e-24d0-4b49-a8b2-619b8eaca451")
+	)
+	(rectangle
+		(start 104.14 25.4)
+		(end 200.66 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "33e7dafb-055c-488c-9f64-622718a194c3")
+	)
+	(text "U?: ADS1118IDGSR (LCSC C55347, ~$1.75 @10). Replaces MCP96L00 (I2C, locked up until power-cycled).\n\nAIN0/AIN1 = TC0P/TC0N    AIN2/AIN3 = TC1P/TC1N\nSCLK = SPI_SCK   DIN = SPI_MOSI   CS = TC_ADC_CS (10k pull-up to +3.3V)\nDOUT/DRDY = SPI_MISO (22R at the pin; DRDY is muxed on DOUT, no extra GPIO)\nVDD = +3.3V with 0.1 uF + 1 uF to GND.  GND = GND.\n\nSettings: PGA +/-0.256 V, 128 SPS, alternate TC0 / TC1 / internal temp sensor.\nInternal temp sensor = cold junction (and board temp for the CAN status msg).\nPlace U? close to the TC connectors and on the same copper so the\ncold-junction reading matches the connector temperature.\n\nSPI mode 1 (CPOL 0, CPHA 1). Shares SPI1 with nothing else on this board."
+		(exclude_from_sim no)
+		(at 105.41 26.669999999999998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4716ac33-2fc1-47f4-bf45-fcb7903e9d7f")
+	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 205.74 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "d391bf9f-ce6f-44eb-abe9-23f9ec5d9cb0")
+	)
+	(rectangle
+		(start 205.74 25.4)
+		(end 266.7 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4059474c-b737-4c7a-a968-91e8a8379213")
+	)
+	(text "TP on SPI_SCK, SPI_MISO, SPI_MOSI, TC_ADC_CS.\nAdd TPD2EUSB30 on the SPI test points\n(same as strain gauge: SCK+MOSI, MISO+CS)."
+		(exclude_from_sim no)
+		(at 207.01000000000002 26.669999999999998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "053a9cbf-e08a-4e8f-b5d3-238bbb4cd2f2")
+	)
+	(text "Firmware Notes"
+		(exclude_from_sim no)
+		(at 35.56 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "f94891d8-99a5-4dbe-98b5-ae81639510db")
+	)
+	(rectangle
+		(start 35.56 104.14)
+		(end 266.7 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d4eece9b-abfe-4900-b8d0-e856b2566141")
+	)
+	(text "K-type: ~41 uV/C. T = NIST K-type inverse(V_tc + V(T_cj)). Use the NIST polynomial or a lookup table.\nOpen TC: bias resistors in each channel pull the input to full scale -> reading pinned at +FS = 'TC open' fault.\nCAN: module temp at 2 Hz; validity bit per channel; board temp optional (from ADS1118 internal sensor)."
+		(exclude_from_sim no)
+		(at 36.830000000000005 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "039fc18e-d1e9-4b86-9b10-f35ce8377edd")
+	)
+	(embedded_fonts no)
+)

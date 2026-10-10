@@ -1,0 +1,301 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b32a096d-4f12-4efd-9a35-0358fa3aa577")
+	(paper "A4")
+	(title_block
+		(title "Irradiance Front End")
+		(rev "A")
+		(company "Longhorn Racing Solar - VCAT Telemetry")
+	)
+	(lib_symbols)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 25.4 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf11e2a8-3934-4a18-b168-2c336b378dd1")
+	)
+	(hierarchical_label "VDDA"
+		(shape input)
+		(at 25.4 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1d20610-dc46-46fc-9227-2756950122c0")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31b8b38d-a5ca-4fca-8a32-d5fc719404c2")
+	)
+	(hierarchical_label "GNDA"
+		(shape passive)
+		(at 25.4 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e617d6b-33f1-46ba-89cd-fe070118cea9")
+	)
+	(hierarchical_label "IRRAD_TEST"
+		(shape input)
+		(at 25.4 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c773edb-b40a-4268-b68a-26e42b3285c6")
+	)
+	(hierarchical_label "IRRAD_ADC"
+		(shape output)
+		(at 271.78 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "000a3b80-1e98-45e2-9020-9ee94e6d7a20")
+	)
+	(hierarchical_label "IRRAD_DET"
+		(shape output)
+		(at 271.78 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "466b73f7-56f2-49ce-b7dc-a1eb8f3bbea7")
+	)
+	(text "Breakout Connector"
+		(exclude_from_sim no)
+		(at 35.56 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "68bc6f7a-8b3f-4104-81e9-54fcb0aa907a")
+	)
+	(rectangle
+		(start 35.56 25.4)
+		(end 95.25 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6f8923da-0a64-41b3-a59a-4bc2cc899742")
+	)
+	(text "J?: harness to the irradiance breakout (2nd PCB).\nPins: PD_A, PD_K (twisted pair), BRK_DET, GNDA, SHIELD.\nUse an LHRS Nano-Fit symbol (ask harness lead for count).\n\nSHIELD: 0R to GND (fit) + 0R to GNDA (DNP),\nsame scheme as the strain gauge J8.\nTerminate the shield at THIS end only.\n\nBRK_DET: breakout ties it to GNDA.\n10k pull-up to +3.3V here -> IRRAD_DET.\nHigh = breakout missing (fault flag)."
+		(exclude_from_sim no)
+		(at 36.830000000000005 26.669999999999998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6dc1751c-e3b4-42a7-98b4-045490b15c98")
+	)
+	(text "ESD Protection"
+		(exclude_from_sim no)
+		(at 99.06 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "80997d6c-9c1f-4147-8c32-4f524d33f4b3")
+	)
+	(rectangle
+		(start 99.06 25.4)
+		(end 140.97 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d32eaf99-1a79-42fc-8c43-52983517aa5a")
+	)
+	(text "TPD2EUSB30DRTR (ELC parts list, C97502)\non PD_A + PD_K, pin 3 -> GND.\nPlace right at the connector.\n\nOptional 2nd: BRK_DET."
+		(exclude_from_sim no)
+		(at 100.33 26.669999999999998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "97782fd4-481f-4363-8234-a22798fc5459")
+	)
+	(text "Transimpedance Amplifier"
+		(exclude_from_sim no)
+		(at 144.78 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "c6cbac5f-c18c-44fa-b08f-41acbcfeb071")
+	)
+	(rectangle
+		(start 144.78 25.4)
+		(end 220.98 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8d73e916-1aa0-48ab-a83c-b9c486a646e7")
+	)
+	(text "Photodiode in photovoltaic mode (0 V bias):\nPD_A -> op-amp IN-, PD_K -> GNDA, IN+ -> GNDA.\nRf from OUT to IN-, Cf across Rf.\n\nVout = Isc x Rf.  Pick Rf so full sun (~1000 W/m2)\ngives ~2.5 V: Rf = 2.5 V / Isc_fullsun.\nMEASURE Isc_fullsun first (meter in uA/mA mode,\nPD shorted, in real sun, behind the window).\nCf: fc = 1/(2 pi Rf Cf) ~ 100 Hz (CAN rate 10 Hz).\n\nOp-amp: rail-to-rail out, low offset, can source\na few mA (e.g. TLV9001 / TLV9002 from parts list).\nSupply from VDDA, ground to GNDA.\nOutput must stay below VDDA: check headroom."
+		(exclude_from_sim no)
+		(at 146.05 26.669999999999998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "971aa2dd-efdf-49c3-986e-3b4c6dab3bfc")
+	)
+	(text "Self-Test Injection"
+		(exclude_from_sim no)
+		(at 144.78 80.00999999999999 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "ba529292-8917-4c72-9526-fb5b042c7b8e")
+	)
+	(rectangle
+		(start 144.78 82.55)
+		(end 220.98 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0c95c5e8-002d-48c0-9454-48705b37bb5d")
+	)
+	(text "IRRAD_TEST (MCU GPIO) -> R_test -> op-amp IN-.\nWith PD dark/covered: Vout = (3.3 V / R_test) x Rf.\ne.g. R_test = 1M -> 3.3 uA known current.\nProves the TIA + ADC chain works (validity bit).\nLeave GPIO Hi-Z in normal operation."
+		(exclude_from_sim no)
+		(at 146.05 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "613a681e-84b1-40b5-b607-61794e84c4ac")
+	)
+	(text "ADC Anti-Alias + Test Point"
+		(exclude_from_sim no)
+		(at 224.79 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "54220127-05ca-435d-9d5f-9039dd9259f0")
+	)
+	(rectangle
+		(start 224.79 25.4)
+		(end 266.7 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "23a38b80-e260-4c39-84fe-cf6b80469108")
+	)
+	(text "Rs ~1k + 100 nF to GNDA\ninto IRRAD_ADC (PA3 = ADC1_IN4,\nverify in CubeMX).\n\nTest points: TIA_OUT, PD_A, GNDA."
+		(exclude_from_sim no)
+		(at 226.06 26.669999999999998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "848c53e5-2495-4861-b049-0ebda4406a21")
+	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 35.56 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "6aa76970-8858-467f-9b33-0be76a049b4a")
+	)
+	(rectangle
+		(start 35.56 127)
+		(end 266.7 175.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ca5be8ca-fe1e-46ef-ba2b-a86feacc5088")
+	)
+	(text "Why analog instead of I2C (old TSL2591 breakout):\n - Old board ran I2C over a 6\" off-board harness; motor noise at comp + bus capacitance made it unreliable (Notion Blackbody v1.0.0, #array 10/5).\n - TSL2591 has a fixed address (0x29), so multiple sensors needed a mux/translator.\n - A silicon photodiode responds ~430-1100 nm, peak ~900 nm: same band the solar cells use (Aarav: 300-1100 nm, peak 800-950).\n - Short-circuit photocurrent is linear with irradiance; a current over shielded twisted pair is far less noise-sensitive than I2C.\n\nCandidate photodiode: Vishay BPW34 / BPW34S (7.5 mm2, 47 uA @ 1 mW/cm2, 950 nm). Calibrate one point against a reference meter (Kell: define 'peak sun').\nMounting: Ravi suggests the breakout on the underside of the top shell behind a window; wipe the window often.\nFault bits: IRRAD_DET high = breakout missing; Vout at rail = saturated; self-test mismatch = front end bad."
+		(exclude_from_sim no)
+		(at 36.830000000000005 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c2b89bfd-8bdd-4323-969a-712675b7ab3c")
+	)
+	(embedded_fonts no)
+)
