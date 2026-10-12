@@ -8,8 +8,8 @@ Measures **solar irradiance** and **solar-module temperature** at locations acro
 
 | Board | Folder | Purpose |
 |---|---|---|
-| Main board | `hardware/BlackbodyMain` | Collects sensor data from the breakout(s), does the math, sends CAN messages |
-| Breakout board | `hardware/BlackbodyBreakout` | Holds the irradiance and temperature sensors on the top shell |
+| Main board | `hardware/` (`BlackBodyBoard.kicad_pro`) | Collects sensor data from the breakout(s), does the math, sends CAN messages |
+| Breakout board | `hardware/IrradianceBreakout` | Holds the irradiance and temperature sensors on the top shell |
 
 Baseline quantity: 3 (final count and placement TBD).
 
@@ -23,14 +23,20 @@ Baseline quantity: 3 (final count and placement TBD).
 
 ## Repo layout
 
+Same layout as VCAT-StrainGaugeBoard:
+
 ```
-hardware/BlackbodyMain/       KiCad project: main board
-hardware/BlackbodyBreakout/   KiCad project: sensor breakout
-lib/KiCAD-Sharepoint/         Shared LHRS symbols, footprints, design blocks (submodule)
-lib/footprints/, lib/3dmodels/  Board-specific parts
+CubeMX/CubeMX.ioc               STM32G473 pin/clock config (started from strain gauge; re-pin for Blackbody)
+hardware/BlackBodyBoard.*        main board project (root sheet)
+hardware/<Block>.kicad_sch       design blocks: PowerProtection, 12VBuck, Power_Mux, LDO,
+                                 USB-C_Connector, 48PinMCU, CAN_Transceiver,
+                                 Irradiance, Thermocouple, TC_Channel
+hardware/IrradianceBreakout/     sensor breakout project
+lib/KiCAD-Sharepoint/            shared LHRS symbols, footprints, design blocks (submodule)
+lib/footprints/, lib/3dmodels/   board-specific parts
 ```
 
-Symbol, footprint, and design-block tables use `${KIPRJMOD}` paths into `lib/KiCAD-Sharepoint`, so they work on any machine.
+Conventions: power symbols + local labels on the root sheet, hierarchical labels inside sub-sheets, inputs on the left / outputs on the right, passive values without units (`10k`, `0.1u`).
 
 ## Getting started
 

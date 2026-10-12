@@ -45,3 +45,6 @@ fabrication-toolkit-options.json
 # Local
 .history/
 *.lck
+
+# Local backups
+.backup-*/

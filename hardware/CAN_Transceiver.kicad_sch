@@ -33759,6 +33759,12 @@
 			(uuid "cfbcadea-96cf-424c-ad91-890e544e6363")
 		)
 		(instances
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
 					(reference "C6")
@@ -33768,12 +33774,6 @@
 			(project "CAN_Transceiver"
 				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -33872,6 +33872,12 @@
 			(uuid "0f0b5e97-daad-483c-a5d0-5d662ddb8640")
 		)
 		(instances
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
 					(reference "C8")
@@ -33881,12 +33887,6 @@
 			(project "CAN_Transceiver"
 				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -33964,6 +33964,12 @@
 			(uuid "3d0c2ea2-acd1-49f7-986a-b378f6b430a0")
 		)
 		(instances
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
 					(reference "JP2")
@@ -33978,12 +33984,6 @@
 			)
 			(project "CAN_Transceiver"
 				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
 					(reference "JP1")
 					(unit 1)
 				)
@@ -34085,6 +34085,12 @@
 			(uuid "1e6d57eb-788f-4ab6-9e32-f0227f9fcce7")
 		)
 		(instances
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
 					(reference "C7")
@@ -34094,12 +34100,6 @@
 			(project "CAN_Transceiver"
 				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -34200,6 +34200,12 @@
 			(uuid "a68fbfcf-27e7-4ded-8e8c-d9afa05a2b87")
 		)
 		(instances
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
 					(reference "C5")
@@ -34215,12 +34221,6 @@
 			(project "CAN_Transceiver"
 				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -34319,6 +34319,12 @@
 			(uuid "eadbc9ef-015e-416b-b429-cb310da85012")
 		)
 		(instances
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "kk36984"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
 					(reference "R23")
@@ -34328,12 +34334,6 @@
 			(project "CAN_Transceiver"
 				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -34487,6 +34487,12 @@
 			(uuid "b0e2adf7-a02b-4ad8-a0aa-e181c8c6489b")
 		)
 		(instances
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
 					(reference "D8")
@@ -34496,12 +34502,6 @@
 			(project "CAN_Transceiver"
 				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -34670,6 +34670,12 @@
 			(uuid "bda5a424-c010-4a72-ba4f-0982ceea7b46")
 		)
 		(instances
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
 					(reference "IC1")
@@ -34678,12 +34684,6 @@
 			)
 			(project "CAN_Transceiver"
 				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
 					(reference "IC1")
 					(unit 1)
 				)
@@ -34783,6 +34783,12 @@
 			(uuid "c60f6f6c-5e75-4ba9-87cd-a842ff79f089")
 		)
 		(instances
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
 					(reference "R22")
@@ -34798,12 +34804,6 @@
 			(project "CAN_Transceiver"
 				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/ed516f81-5eb5-4849-8155-19d610b15fed"
-					(reference "R9")
 					(unit 1)
 				)
 			)

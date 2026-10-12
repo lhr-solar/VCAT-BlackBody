@@ -1,124 +1,273 @@
-(kicad_sch
-	(version 20260306)
-	(generator "eeschema")
-	(generator_version "10.0")
-	(uuid "552486ca-d81b-4f74-b370-4ec84ac435dd")
-	(paper "A4")
-	(title_block
-		(title "Blackbody Irradiance Breakout")
-		(rev "A")
-		(company "Longhorn Racing Solar - VCAT Telemetry")
-	)
-	(lib_symbols)
-	(text "Photodiode"
-		(exclude_from_sim no)
-		(at 25.4 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0") (uuid "552486ca-d81b-4f74-b370-4ec84ac435dd") (paper "A4")
+	(lib_symbols
+		(symbol "BlackBody:BPW34" (pin_names (offset 1.016) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (duplicate_pin_numbers_are_jumpers no) (property "Reference" "D" (at 0 -3.81 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "BPW34" (at 0 5.715 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "https://www.vishay.com/docs/81521/bpw34.pdf" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "Silicon PIN photodiode 430-1100 nm, 7.5 mm2" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) (symbol "BPW34_0_1" (polyline (pts (xy 1.27 1.27) (xy 1.27 -1.27)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy -2.54 3.81) (xy -0.508 1.778)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy -1.27 4.572) (xy 0.762 2.54)) (stroke (width 0) (type default)) (fill (type none)))) (symbol "BPW34_1_1" (pin passive line (at -3.81 0 0) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 3.81 0 180) (length 2.54) (name "K" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))) (embedded_fonts no))
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
 			)
-			(justify left top)
-		)
-		(uuid "7fad1d17-e3c5-46b6-b4ea-ba6411f48666")
-	)
-	(rectangle
-		(start 25.4 30.48)
-		(end 101.6 76.2)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "f379af87-49a2-4ca7-b3d6-74d5d610e593")
-	)
-	(text "D?: Vishay BPW34 / BPW34S silicon PIN photodiode\n(430-1100 nm, peak ~900 nm, 7.5 mm2).\n\nAnode -> PD_A, Cathode -> PD_K.\nNo bias, no local electronics: the TIA lives on the\nmain Blackbody board (photovoltaic mode).\n\nPlace on the TOP side, centered on the window.\nOptional: PTFE/opal diffuser over it for cosine response."
-		(exclude_from_sim no)
-		(at 26.669999999999998 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
-			(justify left top)
-		)
-		(uuid "3425a3bc-f01d-497e-b456-548593b3296d")
-	)
-	(text "Harness Connector"
-		(exclude_from_sim no)
-		(at 106.68 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
-			(justify left top)
-		)
-		(uuid "cf3498dc-6b21-49e4-8ece-b4fbdfc519f4")
-	)
-	(rectangle
-		(start 106.68 30.48)
-		(end 177.8 76.2)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "f743e312-8c1d-484f-9399-75f6e6d678f4")
-	)
-	(text "J?: same Nano-Fit series as the main board end.\nPD_A, PD_K (twisted pair), BRK_DET, GNDA, SHIELD.\n\nBRK_DET: tie to GNDA on THIS board so the main\nboard can detect a missing/unplugged breakout.\nSHIELD: leave unconnected here (terminated at the\nmain board only)."
-		(exclude_from_sim no)
-		(at 107.95 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
-			(justify left top)
-		)
-		(uuid "96eef067-e0c8-4ba2-9572-ac4716968a1e")
-	)
-	(text "Mechanical"
-		(exclude_from_sim no)
-		(at 182.88 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
-			(justify left top)
-		)
-		(uuid "1abe2821-324a-4f6e-83f2-09de0f8c582e")
-	)
-	(rectangle
-		(start 182.88 30.48)
-		(end 266.7 76.2)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "1faa095d-ef97-481c-8b97-272f307e899b")
-	)
-	(text "Mount on the underside of the top shell behind a\nwindow (Ravi); match the module tilt (Aarav).\nKeep the board tiny; 2 mounting holes.\nOld breakout: Power-Generation-Blackbody/\nHardware/IrradianceBreakout (TSL2591, I2C)."
-		(exclude_from_sim no)
-		(at 184.15 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
-			(justify left top)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(uuid "59455e67-ba37-47d0-8b14-12d218ab4240")
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
+	(text "Photodiode" (exclude_from_sim no) (at 20.32 24.13 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "959333fb-5d90-442a-ac06-d6597d2e8cd1"))
+	(rectangle (start 20.32 25.4) (end 96.52 76.2) (stroke (width 0) (type default)) (fill (type none)) (uuid "2b1089b0-50e9-4b53-b635-e275caf44e9d"))
+	(text "Vishay BPW34 / BPW34S, 430-1100 nm, 7.5 mm2. Top side, centred on the window.\nAssign the footprint once the exact package is picked." (exclude_from_sim no) (at 20.32 77.47 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid "e2f95a2c-4ef1-4eba-bbaf-24f8a6e659b5"))
+	(symbol (lib_id "BlackBody:BPW34") (at 53.34 45.72 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced no) (uuid "3e4c0b33-f618-4e0f-91e3-5227cc8da5fc") (property "Reference" "D1" (at 53.34 49.53 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "BPW34" (at 53.34 41.91 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 53.34 45.72 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "~" (at 53.34 45.72 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 53.34 45.72 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6fb88d93-6aa8-4ca9-b388-ac1af81aef08")) (pin "2" (uuid "bfe9b88a-7fa1-4a33-a8de-846becf4de9c")) (instances (project "IrradianceBreakout" (path "/552486ca-d81b-4f74-b370-4ec84ac435dd" (reference "D1") (unit 1)))))
+	(wire (pts (xy 49.53 45.72) (xy 46.99 45.72)) (stroke (width 0) (type default)) (uuid "4be10a42-1fbe-4ef9-babb-d9a2016af33e"))
+	(label "PD_A" (at 46.99 45.72 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "5c047c6b-d1e6-4718-bffc-15bb19f7979d"))
+	(wire (pts (xy 57.15 45.72) (xy 59.69 45.72)) (stroke (width 0) (type default)) (uuid "1b264e3b-5de1-45b5-8335-085541d31dda"))
+	(label "PD_K" (at 59.69 45.72 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ea1ab9bc-a4ab-494a-aa3c-b1c0ed101be2"))
+	(text "Harness Connector" (exclude_from_sim no) (at 101.6 24.13 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "103dc5d6-a6cc-4469-959e-29b318380fa1"))
+	(rectangle (start 101.6 25.4) (end 177.8 76.2) (stroke (width 0) (type default)) (fill (type none)) (uuid "04734472-35c4-4569-8e7a-ae16671c92de"))
+	(text "Same Nano-Fit 1x5 as the main board J.\nBRK_DET tied to GNDA here (main board reads low = present).\nShield not connected here (terminated on the main board only)." (exclude_from_sim no) (at 101.6 77.47 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid "9931a786-d302-40c2-9e6b-7803b8d12dd8"))
+	(symbol (lib_id "Connector_Generic:Conn_01x05") (at 139.7 45.72 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced no) (uuid "5a1b76c5-f10e-4dca-a39a-5b70ae2e4db7") (property "Reference" "J1" (at 137.16 36.83 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "Nano-Fit 1x5" (at 137.16 54.61 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx05_1x05_P2.50mm_Horizontal" (at 139.7 45.72 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "~" (at 139.7 45.72 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 139.7 45.72 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "62d1ad66-a169-4e98-b090-16f36ba58d3d")) (pin "2" (uuid "a8ce6be6-11d3-4fa1-a880-7ef97bec90cf")) (pin "3" (uuid "de03a808-edeb-41c1-b284-74151f2d49cc")) (pin "4" (uuid "22d77030-38c8-4c88-8b46-4884ba8f1d8d")) (pin "5" (uuid "f74fad6c-f296-4b2a-bf09-ca7006a71aa4")) (instances (project "IrradianceBreakout" (path "/552486ca-d81b-4f74-b370-4ec84ac435dd" (reference "J1") (unit 1)))))
+	(wire (pts (xy 134.62 40.64) (xy 132.08 40.64)) (stroke (width 0) (type default)) (uuid "bc0ec808-9691-4059-9b73-63ed16c49533"))
+	(label "PD_K" (at 132.08 40.64 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "ae721f92-32ba-4320-a5c9-732cc2fa2083"))
+	(wire (pts (xy 134.62 43.18) (xy 132.08 43.18)) (stroke (width 0) (type default)) (uuid "91f0cfd4-e26c-4f99-a579-d0035532759a"))
+	(label "PD_A" (at 132.08 43.18 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "fd278a5d-3b10-4394-afa9-254472fb71c9"))
+	(wire (pts (xy 134.62 45.72) (xy 132.08 45.72)) (stroke (width 0) (type default)) (uuid "3cdb4dcc-e3c0-4593-bbd2-7153783c56b7"))
+	(label "GNDA" (at 132.08 45.72 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "1ba06c08-49bf-497a-8961-bc9f1fc73d24"))
+	(wire (pts (xy 134.62 48.26) (xy 132.08 48.26)) (stroke (width 0) (type default)) (uuid "43ad3e95-c2a3-4c59-8402-fc22c0578da7"))
+	(label "GNDA" (at 132.08 48.26 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "0d477dcb-61ff-4eb1-8f01-bc42f939da53"))
+	(no_connect (at 134.62 50.8) (uuid "f4b0d460-fb10-47d3-a807-f7cbd7e7151d"))
+	(sheet_instances (path "/" (page "1")))
 	(embedded_fonts no)
 )

@@ -5301,7 +5301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03fbb6c3-15d6-4535-82c3-c84cadec759c")
-		(property "Reference" "D9"
+		(property "Reference" "D12"
 			(at 40.64 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5385,15 +5385,15 @@
 			(uuid "5e748cb0-e53f-40b0-91b1-07ac45b63683")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "D1")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "D12")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "D9")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5412,7 +5412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "042b9804-47b9-407a-87bf-5006a6aed699")
-		(property "Reference" "C29"
+		(property "Reference" "C50"
 			(at 57.785 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5496,15 +5496,15 @@
 			(uuid "f9d9acae-c388-43fe-ae6c-919b776cecc8")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "C3")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "C50")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "C29")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5521,7 +5521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "199aa610-9666-48a9-b1cc-4d7400331b7d")
-		(property "Reference" "D6"
+		(property "Reference" "D11"
 			(at 22.606 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5605,15 +5605,15 @@
 			(uuid "95a2e7fe-75c5-4fd0-817b-11bbddf8b6de")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "D2")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "D11")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "D6")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5631,7 +5631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c45fc8a-bcc4-4313-aeca-374a3cb5e0de")
-		(property "Reference" "R14"
+		(property "Reference" "R24"
 			(at 45.72 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5715,15 +5715,15 @@
 			(uuid "946c82e9-2a41-4fdd-b666-b0135d3eb8f3")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "R1")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "R24")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "R14")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5740,7 +5740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30175d18-769c-4cf5-98fe-c1abd5d1092e")
-		(property "Reference" "R19"
+		(property "Reference" "R32"
 			(at 137.668 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5822,15 +5822,15 @@
 			(uuid "d49d998a-7d58-4ef5-a0a6-cdb77e4be921")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "R6")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "R32")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "R19")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5847,7 +5847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "554c6273-4c35-418e-b9d9-5d7b3feeab64")
-		(property "Reference" "C22"
+		(property "Reference" "C48"
 			(at 38.1 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5931,15 +5931,15 @@
 			(uuid "281737f7-b873-4ea9-b36d-20eeb6fe54b3")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "C1")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "C48")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "C22")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5956,7 +5956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f8c95be-4bec-4715-b67b-6a9afc6a3131")
-		(property "Reference" "R15"
+		(property "Reference" "R25"
 			(at 67.31 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6049,15 +6049,15 @@
 			(uuid "29791019-0f69-4fe6-ba20-4a5478f060fc")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "R3")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "R25")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "R15")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6074,7 +6074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73dcf30c-1114-4b7f-9b6d-e8e575b19d22")
-		(property "Reference" "IC2"
+		(property "Reference" "IC3"
 			(at 75.184 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6236,15 +6236,15 @@
 			(uuid "4f095c0e-e107-4893-8afc-81e0b514544e")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "IC1")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "IC3")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "IC2")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -6261,7 +6261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d007b28-9816-472b-b6c4-43ca10aad6f5")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 52.578 38.862 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6385,14 +6385,14 @@
 			(uuid "c5debda0-5775-4708-a1e8-8a60a21f1178")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "Q1")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -6410,7 +6410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ad8d2ea-210c-4b9b-a887-7ae5ea15f9b5")
-		(property "Reference" "C32"
+		(property "Reference" "C53"
 			(at 113.284 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6494,15 +6494,15 @@
 			(uuid "2cc562ca-4b0c-40c7-a2f8-639421910e27")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "C6")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "C53")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "C32")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6519,7 +6519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b1ddc4f-24aa-46be-8d1e-e07bf585137f")
-		(property "Reference" "C30"
+		(property "Reference" "C51"
 			(at 54.864 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6603,15 +6603,15 @@
 			(uuid "309f94e3-54a5-4810-bdad-3dd52cc5ab36")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "C4")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "C51")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "C30")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6628,7 +6628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4deae88-7df1-4411-8ab3-b2332c17194a")
-		(property "Reference" "C31"
+		(property "Reference" "C52"
 			(at 112.395 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6712,15 +6712,15 @@
 			(uuid "77d3cc07-1a18-4d45-b693-9b822b12b0e7")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "C5")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "C52")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "C31")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6738,7 +6738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a643014a-f928-43c7-bf94-eec8ea1e787f")
-		(property "Reference" "Q2"
+		(property "Reference" "Q4"
 			(at 100.584 38.608 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6862,14 +6862,14 @@
 			(uuid "cee5174e-8239-481f-a727-9c8227ed9398")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "Q2")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -6887,7 +6887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be94d869-90f2-4669-bef8-7f9b9e85a653")
-		(property "Reference" "R17"
+		(property "Reference" "R27"
 			(at 118.618 90.424 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6969,15 +6969,15 @@
 			(uuid "406432ec-87a4-4e2b-9a18-6216aa7a1fad")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "R5")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "R27")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "R17")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6995,7 +6995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c99346f3-cf25-4b2b-b50c-e7e063bd40c1")
-		(property "Reference" "C23"
+		(property "Reference" "C49"
 			(at 31.75 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7079,15 +7079,15 @@
 			(uuid "9d3ac516-d454-4796-ba93-a6180966152d")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "C2")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "C49")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "C23")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7104,7 +7104,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d82c2d9c-5f25-43a3-bd89-29d34615c72c")
-		(property "Reference" "C33"
+		(property "Reference" "C54"
 			(at 132.08 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7188,15 +7188,15 @@
 			(uuid "aa9e46f1-16e6-441f-88d2-e09f0d866751")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "C7")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "C54")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "C33")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7213,7 +7213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc50b215-6e88-4055-b18d-dec3d913aa62")
-		(property "Reference" "R16"
+		(property "Reference" "R26"
 			(at 118.11 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7297,15 +7297,15 @@
 			(uuid "655f4ea5-d5c2-461e-94c5-36a9ea8f1ff4")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "R4")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "R26")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "R16")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7322,7 +7322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f07653c5-8d88-4702-88df-582da9d44e81")
-		(property "Reference" "R18"
+		(property "Reference" "R28"
 			(at 137.16 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7404,15 +7404,15 @@
 			(uuid "8cba3b5c-5512-49ed-86a4-c4a373a10dcb")
 		)
 		(instances
-			(project "PowerProtection"
-				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
-					(reference "R7")
+			(project "BlackBodyBoard"
+				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/6a5b0138-e996-4522-adc1-7aa5412b6b8c"
+					(reference "R28")
 					(unit 1)
 				)
 			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/44e29d2e-3b3f-46c8-a788-66edd0238f0d"
-					(reference "R18")
+			(project "PowerProtection"
+				(path "/a968d2b9-0c0e-491c-a5a4-aacd8448ff64"
+					(reference "R7")
 					(unit 1)
 				)
 			)

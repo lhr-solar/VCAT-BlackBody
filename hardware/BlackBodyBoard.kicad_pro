@@ -429,7 +429,7 @@
         "uuid": "48096f47-ddef-4ea4-8e15-14613f1872f0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "IC2-3,#FLG2-5,#FLG7,#FLG9-16,R13-28,R30-33,R41-42,R48,R60-61,R64-67,J4-7,J11,D5-6,D9-12,D14-15,#PWR1-2,#PWR4-6,#PWR8,#PWR11,#PWR13-15,#PWR18,#PWR20-21,#PWR25,#PWR42-51,#PWR70-71,#PWR73-76,#PWR86,#PWR88,C20-23,C25-58,F1-2,JP2-3,L1-2,Q1-4,TP1-8,TP26-49,TP_3.3V1-2,U2-7",
     "variants": []
   },
   "sheets": [
@@ -446,24 +446,12 @@
       "CAN_Transceiver"
     ],
     [
-      "742608da-0aa6-442d-97ae-43bdb3ce7e6a",
-      "LDO 3.3V"
-    ],
-    [
-      "44e29d2e-3b3f-46c8-a788-66edd0238f0d",
-      "PowerProtection"
-    ],
-    [
       "3e1f507b-ac4b-41d9-a5aa-5ad5a924ba8f",
       "USB-C_Connector"
     ],
     [
-      "ad2265c7-0a96-4914-a6f0-818e23817a72",
-      "Power_Mux"
-    ],
-    [
-      "1a168893-fe6f-432a-88a3-0e0f25235a3e",
-      "12VBuck"
+      "afac0d9f-2766-4e2f-89b4-a64d0a269f5b",
+      "12VBuck1"
     ],
     [
       "eac05bf2-b0c8-473d-a3e5-6ef88770bc40",
@@ -472,6 +460,26 @@
     [
       "59189416-5d51-4d24-8c42-809517448b9b",
       "Thermocouple"
+    ],
+    [
+      "dedb1a1b-2ed4-4982-a0d7-8b88c87cf280",
+      "TC_Channel0"
+    ],
+    [
+      "640f9422-f4a8-43eb-92f9-235dd3a04ddb",
+      "TC_Channel1"
+    ],
+    [
+      "8469fd14-d805-40d8-82a1-d1c2e1c25361",
+      "LDO 3.3V1"
+    ],
+    [
+      "6a5b0138-e996-4522-adc1-7aa5412b6b8c",
+      "PowerProtection1"
+    ],
+    [
+      "6222ccd3-d1ee-4d0b-8dcb-c263153f217a",
+      "Power_Mux1"
     ]
   ],
   "text_variables": {},
