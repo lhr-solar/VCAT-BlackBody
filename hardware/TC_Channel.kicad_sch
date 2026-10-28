@@ -801,18 +801,6 @@
 		(uuid "0f814d66-9ac2-4fa4-bf5c-82f9bd0c8f45")
 	)
 	(rectangle
-		(start 46.99 25.4)
-		(end 92.71 40.64)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "693094f8-4aac-4288-9356-b2c2a84fb33c")
-	)
-	(rectangle
 		(start 20.32 45.72)
 		(end 78.74 101.6)
 		(stroke
@@ -845,17 +833,6 @@
 			(justify left)
 		)
 		(uuid "198b238d-28d9-43e2-97bc-a56fa39deacf")
-	)
-	(text "ESD"
-		(exclude_from_sim no)
-		(at 46.99 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31da6ad8-24de-492b-ac0c-bd1554c9b20f")
 	)
 	(text "Thermocouple Connector"
 		(exclude_from_sim no)
@@ -916,16 +893,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 33.02) (xy 85.09 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "113aa553-7aa1-4cbc-97cb-117dd465df8c")
-	)
-	(wire
-		(pts
 			(xy 68.58 68.58) (xy 71.12 68.58)
 		)
 		(stroke
@@ -933,6 +900,16 @@
 			(type default)
 		)
 		(uuid "118fd037-e2ed-4936-9083-0aa3bce6c6e2")
+	)
+	(wire
+		(pts
+			(xy 35.56 93.98) (xy 34.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199ad154-96d5-416a-89dd-21f8e64e3110")
 	)
 	(wire
 		(pts
@@ -956,16 +933,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 91.44) (xy 34.29 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23b07112-d13e-4222-8697-238c842caa6f")
-	)
-	(wire
-		(pts
 			(xy 68.58 71.12) (xy 68.58 68.58)
 		)
 		(stroke
@@ -973,6 +940,16 @@
 			(type default)
 		)
 		(uuid "261ea037-29f1-450e-a7e4-da78d56031a7")
+	)
+	(wire
+		(pts
+			(xy 34.29 93.98) (xy 34.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460e9257-4e34-4ba7-a931-b621f7d9d250")
 	)
 	(wire
 		(pts
@@ -1096,16 +1073,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 33.02) (xy 54.61 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ea530af-a509-4338-b807-ec3ba3fe3e9c")
-	)
-	(wire
-		(pts
 			(xy 55.88 91.44) (xy 55.88 90.17)
 		)
 		(stroke
@@ -1176,16 +1143,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 35.56) (xy 54.61 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e38d10c1-b02f-4e1f-9513-49aa84b173e2")
-	)
-	(wire
-		(pts
 			(xy 36.83 81.28) (xy 34.29 81.28)
 		)
 		(stroke
@@ -1214,74 +1171,58 @@
 		)
 		(uuid "f1c1d938-3ef0-4400-b9f5-d3c1a7f2eefb")
 	)
-	(label "TC_P"
+	(hierarchical_label "TC_P"
+		(shape passive)
 		(at 33.02 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "45687e21-546c-48b6-b828-490dad139599")
+		(uuid "02329328-63ce-402f-836d-3280e567c460")
 	)
-	(label "TC_P"
+	(hierarchical_label "TC_P"
+		(shape passive)
 		(at 29.21 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "6f58172e-f079-479e-a389-102358cff505")
+		(uuid "1a070c10-95b2-4fa0-9bdd-cc9caeba793e")
 	)
-	(label "TC_N"
+	(hierarchical_label "TC_N"
+		(shape passive)
 		(at 29.21 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "7d6afef8-47c5-4ee8-b82f-e9b51224ddde")
+		(uuid "39670c58-8560-466e-acba-da1a825bcbc9")
 	)
-	(label "TC_N"
-		(at 54.61 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c47df143-b212-4cdb-8a81-477d8fa81691")
-	)
-	(label "TC_P"
-		(at 54.61 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "db77ef49-678f-4833-aa1e-05605ad93bc5")
-	)
-	(label "TC_N"
+	(hierarchical_label "TC_N"
+		(shape passive)
 		(at 33.02 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "e9ec1766-ee69-4d14-8f6b-57d8d0cbfa6e")
+		(uuid "7ee4d428-05ff-40a3-a097-9c943c8efcdb")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 34.29 93.98 270)
+		(at 35.56 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0a955a7e-239e-48e0-b377-ace87fc7d832")
 	)
@@ -1306,17 +1247,6 @@
 			(justify left)
 		)
 		(uuid "194875c3-030f-4166-b70d-341e09bd676f")
-	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 85.09 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2ee59e53-3d9f-4efe-9020-e23d0ff3029d")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -2027,92 +1957,6 @@
 				)
 				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/59189416-5d51-4d24-8c42-809517448b9b/dedb1a1b-2ed4-4982-a0d7-8b88c87cf280"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lhrs_ics:TPD2EUSB30DRTR")
-		(at 57.15 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e154b936-8b87-437d-9fcc-73882a63bca7")
-		(property "Reference" "D9"
-			(at 69.85 39.624 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPD2EUSB30DRTR"
-			(at 69.85 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LHRS_ICs:TPD2EUSB30DRTR"
-			(at 57.15 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b46665bc-feb6-45c7-ba0e-a3a677a3ab79")
-		)
-		(pin "2"
-			(uuid "aa43539c-cf49-4df7-b49e-81d91998d4bf")
-		)
-		(pin "3"
-			(uuid "5770cadf-ed81-482e-ab50-3415b194ffda")
-		)
-		(instances
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/59189416-5d51-4d24-8c42-809517448b9b/640f9422-f4a8-43eb-92f9-235dd3a04ddb"
-					(reference "D6")
-					(unit 1)
-				)
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/59189416-5d51-4d24-8c42-809517448b9b/dedb1a1b-2ed4-4982-a0d7-8b88c87cf280"
-					(reference "D9")
 					(unit 1)
 				)
 			)

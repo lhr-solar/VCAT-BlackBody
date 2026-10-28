@@ -789,7 +789,7 @@
 					)
 				)
 			)
-			(property "Footprint" "DDC0006A-MFG"
+			(property "Footprint" "LHRS_ICs:DDC0006A-MFG"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -905,7 +905,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 30.48 -10.16 180)
 					(length 5.08)
 					(name "FB"
@@ -9567,7 +9567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LHRS_ICs:DDC0006A-MFG"
 			(at 114.3 81.28 0)
 			(hide yes)
 			(show_name no)
