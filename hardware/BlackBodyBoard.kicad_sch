@@ -12057,16 +12057,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 76.2) (xy 149.86 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b9aa36c-4872-431a-b1c4-2cdd2273a744")
-	)
-	(wire
-		(pts
 			(xy 45.72 143.51) (xy 41.91 143.51)
 		)
 		(stroke
@@ -13134,16 +13124,6 @@
 			(type default)
 		)
 		(uuid "f67cf0c6-b42f-4fe1-808f-89365d8feef0")
-	)
-	(wire
-		(pts
-			(xy 69.85 128.27) (xy 76.2 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6ec519d-04d7-4379-abae-6bb67cc43173")
 	)
 	(wire
 		(pts
@@ -14488,16 +14468,6 @@
 		)
 		(uuid "28e7af61-aa2b-4e5e-9281-8e0aff098f6d")
 	)
-	(label "IRRAD_INT"
-		(at 76.2 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f9378a1-374b-40ad-9e06-bc1965ec5f27")
-	)
 	(label "+USBC_5V"
 		(at 196.85 129.54 180)
 		(effects
@@ -14677,16 +14647,6 @@
 			(justify right bottom)
 		)
 		(uuid "9e23f8cb-e362-47c5-8d03-5a38bda6329c")
-	)
-	(label "IRRAD_INT"
-		(at 149.86 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a737d5e6-2f11-4dd2-8661-a99b4a24ac29")
 	)
 	(label "MUX_OUT"
 		(at 196.85 135.89 180)
@@ -15097,7 +15057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -15120,6 +15080,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 80.01 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "FRC0603F22R0TS"
+			(at 80.01 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C2930077"
 			(at 80.01 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15179,7 +15161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 232.41 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -15255,7 +15237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 122.428 90)
 			(hide yes)
 			(show_name no)
@@ -15278,6 +15260,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 80.01 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1001T5E"
+			(at 80.01 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190"
 			(at 80.01 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -15337,7 +15341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 181.61 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15983,7 +15987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 181.61 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16138,7 +16142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 77.978 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -16161,6 +16165,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "0603WAF4701T5E"
+			(at 76.2 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C23162"
 			(at 76.2 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -16298,7 +16324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 232.41 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -16377,7 +16403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 232.41 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -16456,7 +16482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 181.61 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -16610,7 +16636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 27.94 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -16770,7 +16796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 181.61 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -16848,7 +16874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 207.772 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -16871,6 +16897,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06030000Z0EE"
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21189"
 			(at 209.55 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -17263,7 +17311,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.91 128.778 90)
 			(hide yes)
 			(show_name no)
@@ -17286,6 +17334,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 41.91 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1001T5E"
+			(at 41.91 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190"
 			(at 41.91 127 0)
 			(hide yes)
 			(show_name no)
@@ -17578,7 +17648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LHRS_Power:Fuse-3557-2"
 			(at 16.002 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -17601,6 +17671,28 @@
 			)
 		)
 		(property "Description" "Fuse"
+			(at 17.78 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "3557-2"
+			(at 17.78 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C352820"
 			(at 17.78 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -17660,7 +17752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 212.09 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -17970,7 +18062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 77.978 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -17993,6 +18085,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1602T5E"
+			(at 76.2 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C22818"
 			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -18128,7 +18242,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.91 123.698 90)
 			(hide yes)
 			(show_name no)
@@ -18151,6 +18265,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 41.91 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1001T5E"
+			(at 41.91 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190"
 			(at 41.91 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -18285,7 +18421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 117.348 90)
 			(hide yes)
 			(show_name no)
@@ -18308,6 +18444,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 80.01 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "FRC0603F22R0TS"
+			(at 80.01 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C2930077"
 			(at 80.01 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -18367,7 +18525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 212.09 127 0)
 			(hide yes)
 			(show_name no)
@@ -18714,7 +18872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 212.09 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -19371,7 +19529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 181.61 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -19793,7 +19951,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 107.188 90)
 			(hide yes)
 			(show_name no)
@@ -19816,6 +19974,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 80.01 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "FRC0603F22R0TS"
+			(at 80.01 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C2930077"
 			(at 80.01 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -19875,7 +20055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 181.61 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -19953,7 +20133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 184.912 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -19976,6 +20156,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 186.69 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06030000Z0EE"
+			(at 186.69 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21189"
 			(at 186.69 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -21052,16 +21254,6 @@
 				(justify left)
 			)
 		)
-		(pin "IRRAD_INT" output
-			(at 147.32 76.2 0)
-			(uuid "11f9aa89-ee38-4fad-b9e6-d2fef3bb1c78")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "BlackBodyBoard"
 				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0"
@@ -21198,6 +21390,10 @@
 				)
 			)
 		)
+	)
+	(no_connect
+		(at 69.85 128.27)
+		(uuid "d1ec3222-a427-437c-bbda-9d4b2703be57")
 	)
 	(sheet_instances
 		(path "/"
