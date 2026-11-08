@@ -1439,7 +1439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 101.6 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -1729,7 +1729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 119.38 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -1810,7 +1810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:105313-2102"
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
 			(at 25.4 31.75 0)
 			(hide yes)
 			(show_name no)

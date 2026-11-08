@@ -3418,7 +3418,7 @@
 		(uuid "db0271a6-5caa-4c37-8891-36671071cc59")
 	)
 	(no_connect
-		(at 152.4 67.31)
+		(at 152.4 62.23)
 		(uuid "0fd3d0d6-eff8-41a3-b069-ad917b68ec37")
 	)
 	(wire
@@ -3733,7 +3733,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 62.23) (xy 152.4 62.23)
+			(xy 160.02 67.31) (xy 152.4 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3771,7 +3771,7 @@
 		)
 		(uuid "0e4d258f-480c-40d3-bc57-da500c8665bf")
 	)
-	(label "SDA"
+	(label "SCL"
 		(at 77.47 59.69 0)
 		(effects
 			(font
@@ -3781,7 +3781,7 @@
 		)
 		(uuid "128bbb68-d9ea-4e42-a42d-d447a1a5a31f")
 	)
-	(label "SCL"
+	(label "SDA"
 		(at 77.47 67.31 0)
 		(effects
 			(font
@@ -3802,7 +3802,7 @@
 		(uuid "4f6f6d46-a816-4235-a59e-2eb1194ec9e0")
 	)
 	(label "SCL"
-		(at 160.02 62.23 180)
+		(at 160.02 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5695,7 +5695,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 62.23) (xy 111.76 62.23)
+			(xy 106.68 67.31) (xy 111.76 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5704,7 +5704,7 @@
 		(uuid "c0bcaa4c-7e85-49d7-8f7c-2971a3bff93d")
 	)
 	(label "SDA"
-		(at 106.68 62.23 0)
+		(at 106.68 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5718,7 +5718,7 @@
 		(uuid "d4164e27-4bc3-4bf5-bb7a-854121f8d4f7")
 	)
 	(no_connect
-		(at 111.76 67.31)
+		(at 111.76 62.23)
 		(uuid "307856de-6e09-4f09-b455-9c1281218da6")
 	)
 	(no_connect

@@ -2030,6 +2030,14 @@
 		(uuid "b0bfb5ec-e79d-4df5-9395-f6b226c9f356")
 	)
 	(no_connect
+		(at 68.58 60.96)
+		(uuid "0ec94395-aa79-48f5-8c82-fa3e56bac004")
+	)
+	(no_connect
+		(at 30.48 35.56)
+		(uuid "65784f9a-cce9-4aca-8a62-509659c50811")
+	)
+	(no_connect
 		(at 68.58 66.04)
 		(uuid "d2d7113e-2a3a-42da-9aa9-65fec25915f1")
 	)
@@ -2133,15 +2141,15 @@
 		)
 		(uuid "f2a529c2-8d4d-486d-af86-97169ee1960e")
 	)
-	(label "I2C_SDA"
-		(at 30.48 30.48 0)
+	(label "I2C_SCL"
+		(at 30.48 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "38cb8f9b-cf49-4056-a60d-8ad5c856609b")
+		(uuid "4c056c9f-8ffd-4ebc-9a9e-5c5b4409e5cd")
 	)
 	(label "I2C_SCL"
 		(at 17.78 66.04 0)
@@ -2163,16 +2171,6 @@
 		)
 		(uuid "7dab9759-c947-442c-beb8-ac5a594dcfdf")
 	)
-	(label "I2C_SCL"
-		(at 30.48 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83853029-2f82-4614-883e-2f34791c7106")
-	)
 	(label "I2C_SDA"
 		(at 17.78 60.96 0)
 		(effects
@@ -2182,6 +2180,16 @@
 			(justify left bottom)
 		)
 		(uuid "bce277b5-5bba-4334-af47-b052b8821b4d")
+	)
+	(label "I2C_SDA"
+		(at 30.48 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de1605fb-69e2-40fa-b35b-12e8b78d7ec8")
 	)
 	(label "I2C_SDA"
 		(at 63.5 27.94 0)
@@ -2293,7 +2301,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx05_1x05_P2.50mm_Horizontal"
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105309-xx05_1x05_P2.50mm_Vertical"
 			(at 25.4 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -2395,7 +2403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 72.39 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -2587,7 +2595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 72.39 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2631,13 +2639,5 @@
 				)
 			)
 		)
-	)
-	(no_connect
-		(at 30.48 35.56)
-		(uuid "65784f9a-cce9-4aca-8a62-509659c50811")
-	)
-	(no_connect
-		(at 68.58 60.96)
-		(uuid "0ec94395-aa79-48f5-8c82-fa3e56bac004")
 	)
 )
