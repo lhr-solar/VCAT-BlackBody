@@ -2531,7 +2531,7 @@
 		)
 		(uuid "309fe1c4-4e27-4cf0-a030-c65b4c93c5ea")
 	)
-	(label "TC1N"
+	(label "TC1P"
 		(at 67.31 48.26 0)
 		(effects
 			(font
@@ -2621,7 +2621,7 @@
 		)
 		(uuid "9c4046a1-5b8d-4ad3-8544-bca8b79adee9")
 	)
-	(label "TC1P"
+	(label "TC1N"
 		(at 67.31 50.8 0)
 		(effects
 			(font
@@ -3450,7 +3450,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "TC_Channel.kicad_sch"
+		(property "Sheetfile" "TC_Channel1.kicad_sch"
 			(at 30.48 60.2746 0)
 			(hide yes)
 			(show_name no)
@@ -3557,7 +3557,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "TC_Channel.kicad_sch"
+		(property "Sheetfile" "TC_Channel0.kicad_sch"
 			(at 30.48 37.4146 0)
 			(hide yes)
 			(show_name no)

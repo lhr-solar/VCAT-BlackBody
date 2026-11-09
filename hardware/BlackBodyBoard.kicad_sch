@@ -21008,7 +21008,7 @@
 				(justify right)
 			)
 		)
-		(pin "PB6" bidirectional
+		(pin "PB7" bidirectional
 			(at 45.72 127 180)
 			(uuid "d65098b6-de35-4d4d-9b6e-1ffcd13c8486")
 			(effects
@@ -21018,7 +21018,7 @@
 				(justify left)
 			)
 		)
-		(pin "PB7" bidirectional
+		(pin "PB6" bidirectional
 			(at 45.72 121.92 180)
 			(uuid "969feeee-5c97-46b6-ac44-73ceb5568974")
 			(effects
