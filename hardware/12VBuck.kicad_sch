@@ -1387,16 +1387,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 130.81) (xy 227.33 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79b4f045-1492-41f3-b438-a36c94c7fda5")
-	)
-	(wire
-		(pts
 			(xy 219.71 90.17) (xy 224.79 90.17)
 		)
 		(stroke
@@ -7844,17 +7834,6 @@
 		)
 		(uuid "13eb82c5-6b44-4b8a-b253-c2b1fcd669cf")
 	)
-	(hierarchical_label "V_in_12V"
-		(shape input)
-		(at 227.33 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "58af6e10-cf20-4947-8e5d-cb298812265b")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 179.07 102.87 180)
@@ -8158,103 +8137,6 @@
 			(project "12VBuck"
 				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 227.33 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "534903a9-bc70-4eea-8652-865f25dff125")
-		(property "Reference" "TP5"
-			(at 229.87 123.6979 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V_in_12V"
-			(at 222.25 122.428 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 232.41 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 227.33 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e82978e-83a1-4dc4-83fe-a2c7ca9d19e1")
-		)
-		(instances
-			(project "12-5vBuck"
-				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/afac0d9f-2766-4e2f-89b4-a64d0a269f5b"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-			(project "PowerPath"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-			(project "12VBuck"
-				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
-					(reference "TP?")
 					(unit 1)
 				)
 			)
