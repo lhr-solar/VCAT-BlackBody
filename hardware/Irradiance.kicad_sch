@@ -1956,7 +1956,223 @@
 			)
 			(embedded_fonts no)
 		)
-	)
+
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)	)
 	(rectangle
 		(start 15.24 17.78)
 		(end 57.15 48.26)
@@ -2083,16 +2299,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 27.94) (xy 72.39 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82214959-aa38-4ae5-86da-29d358d932f0")
-	)
-	(wire
-		(pts
 			(xy 17.78 66.04) (xy 27.94 66.04)
 		)
 		(stroke
@@ -2120,16 +2326,6 @@
 			(type default)
 		)
 		(uuid "e6e4abfc-76e7-46e4-8187-138ebc004fe0")
-	)
-	(wire
-		(pts
-			(xy 63.5 34.29) (xy 72.39 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec284f26-5d1e-48bb-9df5-c91f5c802b0a")
 	)
 	(wire
 		(pts
@@ -2161,16 +2357,6 @@
 		)
 		(uuid "787e4aec-748f-4d5d-a70c-40338527b1e7")
 	)
-	(label "I2C_SCL"
-		(at 63.5 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7dab9759-c947-442c-beb8-ac5a594dcfdf")
-	)
 	(label "I2C_SDA"
 		(at 17.78 60.96 0)
 		(effects
@@ -2190,16 +2376,6 @@
 			(justify left bottom)
 		)
 		(uuid "de1605fb-69e2-40fa-b35b-12e8b78d7ec8")
-	)
-	(label "I2C_SDA"
-		(at 63.5 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f05d3dc2-ebfb-4a81-9e81-db43a29ceb06")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -2370,85 +2546,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 72.39 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "90cad283-086e-48c6-a7d6-56d34abb8c23")
-		(property "Reference" "TP3"
-			(at 73.914 30.226 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SCL"
-			(at 73.914 32.258 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 72.39 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5247d9bf-0141-4e84-bba5-9646a42f8ed3")
-		)
-		(instances
-			(project "BlackBodyBoard"
-				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/eac05bf2-b0c8-473d-a3e5-6ef88770bc40"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lhrs_ics:D5V0P4UR6SO-7")
 		(at 27.94 60.96 0)
 		(unit 1)
@@ -2561,9 +2658,10 @@
 			)
 		)
 	)
+)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 72.39 27.94 0)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 77.47 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2571,9 +2669,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bf425a72-42fe-4059-bb20-5a05699e6aaf")
-		(property "Reference" "TP2"
-			(at 73.914 23.876 0)
+		(uuid "9926166f-4316-4394-84ab-cb7d49e07ba5")
+		(property "Reference" "J9"
+			(at 80.01 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2583,8 +2681,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SDA"
-			(at 73.914 25.908 0)
+		(property "Value" "I2C"
+			(at 80.01 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2595,8 +2693,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 72.39 27.94 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 77.47 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2607,7 +2705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 27.94 0)
+			(at 77.47 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2617,8 +2715,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 72.39 27.94 0)
+		(property "Description" "I2C debug header"
+			(at 77.47 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2629,15 +2727,67 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac75c3ab-73f8-4c2f-9642-0beba3aa4f7a")
+			(uuid "9fa562d1-bfa3-4b42-aa31-9ba9d57de19f")
+		)
+		(pin "2"
+			(uuid "23d3eb3c-d114-4826-9c6d-532a5b4c53c5")
+		)
+		(pin "3"
+			(uuid "3fa3c250-6843-4333-8d1b-d1347f9c3bc6")
+		)
+		(pin "4"
+			(uuid "cfb0e134-484b-4094-819a-122c7f08f5ab")
 		)
 		(instances
 			(project "BlackBodyBoard"
 				(path "/48096f47-ddef-4ea4-8e15-14613f1872f0/eac05bf2-b0c8-473d-a3e5-6ef88770bc40"
-					(reference "TP2")
+					(reference "J9")
 					(unit 1)
 				)
 			)
 		)
 	)
-)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 72.39 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8dc47f1-4d5f-41eb-a4c7-a4a508ec5d7b")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 72.39 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a057417-c145-43f5-b442-56662a9d9228")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 72.39 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64aabff2-d0e7-4545-bc00-0639698190cb")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape input)
+		(at 72.39 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c43f4a6d-a925-4b1b-bd75-7d99f0d860fb")
+	)
