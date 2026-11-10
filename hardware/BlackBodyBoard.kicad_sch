@@ -14656,6 +14656,26 @@
 			"RU5ErkJggg=="
 		)
 	)
+	(label "CAN_SHIELD"
+		(at 186.69 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1297df70-768d-4f1a-aa6a-c4c9268f57b5")
+	)
+	(label "CAN_SHIELD"
+		(at 209.55 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71a9dd3c-9942-4b84-935f-49c6e18419e0")
+	)
 	(label "TC_ADC_CS"
 		(at 41.91 143.51 180)
 		(effects
