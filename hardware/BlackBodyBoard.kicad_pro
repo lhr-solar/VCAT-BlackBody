@@ -162,7 +162,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -678,7 +678,7 @@
         "uuid": "48096f47-ddef-4ea4-8e15-14613f1872f0"
       }
     ],
-    "used_designators": "J4-7,J9,J11,#FLG2-5,#FLG7,#FLG9-16,R13-28,R30-33,R41-42,R48,R60-61,R64-67,IC2-3,#PWR1-2,#PWR4-6,#PWR8,#PWR11,#PWR13-15,#PWR18,#PWR20-21,#PWR25,#PWR42-51,#PWR70-71,#PWR73-76,#PWR86,#PWR88,D5-6,D9-12,D14-15,C20-23,C25-58,F1-2,JP2-3,L1-2,Q1-4,TP1-8,TP26-49,TP_3.3V1-2,U2-7",
+    "used_designators": "J4-7,J9,J11,#PWR1-2,#PWR4-6,#PWR8,#PWR11,#PWR13-15,#PWR18,#PWR20-21,#PWR25,#PWR42-51,#PWR70-71,#PWR73-76,#PWR86,#PWR88,D5-6,D9-12,D14-15,U2-7,C20-23,C25-58,Q1-4,#FLG2-5,#FLG7,#FLG9-16,IC2-3,TP1-8,TP26-49,F1-2,L1-2,R13-28,R30-33,R41-42,R48,R60-61,R64-67,JP2-3,TP_3.3V1-2",
     "variants": []
   },
   "sheets": [
