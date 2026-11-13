@@ -12325,6 +12325,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 123.19) (xy 228.6 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08044fd7-01c6-41a5-813f-d15677b05038")
+	)
+	(wire
+		(pts
 			(xy 45.72 143.51) (xy 41.91 143.51)
 		)
 		(stroke
@@ -12985,6 +12995,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 125.73) (xy 240.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a464bb-5036-4f2f-b385-78f5922aee00")
+	)
+	(wire
+		(pts
 			(xy 69.85 115.57) (xy 76.2 115.57)
 		)
 		(stroke
@@ -13225,6 +13245,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 121.92) (xy 240.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddcdbcde-6341-4e33-9394-4dabca38423d")
+	)
+	(wire
+		(pts
 			(xy 76.2 54.61) (xy 76.2 58.42)
 		)
 		(stroke
@@ -13322,6 +13352,16 @@
 			(type default)
 		)
 		(uuid "ebd2a635-3df7-4b7f-be96-8ec0d0a1c68d")
+	)
+	(wire
+		(pts
+			(xy 228.6 125.73) (xy 240.03 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee075a87-417a-4fd6-87de-2a3fe90cf62b")
 	)
 	(wire
 		(pts
@@ -14887,7 +14927,7 @@
 		(uuid "b00feccd-5818-4c59-8457-e56a651a0d50")
 	)
 	(label "SPI_MOSI"
-		(at 247.65 114.3 180)
+		(at 240.03 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14927,7 +14967,7 @@
 		(uuid "cc87082a-4d27-4d39-8e10-f84123fbe9a9")
 	)
 	(label "SPI_MISO"
-		(at 247.65 116.84 180)
+		(at 240.03 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14937,7 +14977,7 @@
 		(uuid "d1f00523-786c-4f13-a7c8-1354579f379d")
 	)
 	(label "SPI_SCK"
-		(at 247.65 119.38 180)
+		(at 240.03 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15007,7 +15047,7 @@
 		(uuid "f070779b-c084-4d75-836a-82eca041eb1c")
 	)
 	(label "TC_ADC_CS"
-		(at 247.65 111.76 180)
+		(at 240.03 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16481,7 +16521,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 121.92 270)
+		(at 232.41 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16492,7 +16532,7 @@
 		(fields_autoplaced yes)
 		(uuid "41ce8900-1b3d-4efd-b82e-894941171802")
 		(property "Reference" "#PWR0207"
-			(at 244.45 121.92 0)
+			(at 232.41 125.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16503,17 +16543,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 244.45 121.92 0)
+			(at 234.95 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 43.18 0)
+			(at 153.67 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16524,7 +16565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 43.18 0)
+			(at 153.67 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16535,7 +16576,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 43.18 0)
+			(at 153.67 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17038,6 +17079,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CRCW06030000Z0EE"
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3085174d-f62f-4216-bc78-60c6b4d88745")
 		)
@@ -17055,7 +17107,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 252.73 116.84 0)
+		(at 245.11 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17065,7 +17117,7 @@
 		(dnp no)
 		(uuid "675ed6b1-447c-4bb0-b6c6-90a408c1457c")
 		(property "Reference" "J10"
-			(at 255.27 109.22 0)
+			(at 247.65 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17076,7 +17128,7 @@
 			)
 		)
 		(property "Value" "SPI"
-			(at 255.27 127 0)
+			(at 243.332 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17087,7 +17139,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 252.73 116.84 0)
+			(at 245.11 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17098,7 +17150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 116.84 0)
+			(at 245.11 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17109,7 +17161,7 @@
 			)
 		)
 		(property "Description" "SPI debug header"
-			(at 252.73 116.84 0)
+			(at 245.11 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19699,7 +19751,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 247.65 124.46 90)
+		(at 228.6 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19709,7 +19761,7 @@
 		(dnp no)
 		(uuid "f2aeed91-75e2-42a0-bfc2-46c918b0a752")
 		(property "Reference" "#PWR0208"
-			(at 244.45 124.46 0)
+			(at 228.6 119.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19720,7 +19772,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 244.45 124.46 0)
+			(at 228.6 119.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19730,7 +19782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 33.02 0)
+			(at 320.04 10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19741,7 +19793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 33.02 0)
+			(at 320.04 10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19752,7 +19804,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 134.62 33.02 0)
+			(at 320.04 10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -33597,6 +33597,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
+			(at 73.66 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62490040-1afe-4ec9-9fdd-5ae650351c74")
 		)
@@ -33700,6 +33711,17 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 189.23 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
 			(at 189.23 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -33913,6 +33935,17 @@
 			)
 		)
 		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 85.09 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
 			(at 85.09 74.93 0)
 			(hide yes)
 			(show_name no)

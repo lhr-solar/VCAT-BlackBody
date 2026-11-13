@@ -45169,6 +45169,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CC0603KRX7R9BB105"
+			(at 201.93 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ddc013f-628c-4b5e-841a-5cfd9aacb0dd")
 		)
@@ -46266,6 +46277,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
+			(at 243.84 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8caf6279-406f-43af-99e2-311bbb61775f")
 		)
@@ -46535,6 +46557,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
+			(at 186.69 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15736e77-09dc-4015-b21d-06828ea54bbe")
 		)
@@ -46764,6 +46797,17 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
+			(at 182.88 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
 			(at 182.88 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -47089,6 +47133,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
+			(at 171.45 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9139708c-d4f3-4719-b997-fd101d11b448")
 		)
@@ -47189,6 +47244,17 @@
 			)
 		)
 		(property "LCSC P/N" "C15849"
+			(at 255.27 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
 			(at 255.27 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -47349,6 +47415,17 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
+			(at 207.01 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
 			(at 207.01 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -47665,6 +47742,17 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
+			(at 219.71 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
 			(at 219.71 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -48245,6 +48333,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CC0603JRNPO9BN270"
+			(at 34.29 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ea4595f-fda5-48a3-8976-eb2e328b97b8")
 		)
@@ -48395,6 +48494,17 @@
 			)
 		)
 		(property "LCSC P/N" "C440198"
+			(at 171.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "GRM21BR61H106KE43K"
 			(at 171.45 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -48850,6 +48960,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CC0603KRX7R9BB105"
+			(at 217.17 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f65293ac-1fb2-4439-b88d-27de50a8b3da")
 		)
@@ -49293,6 +49414,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
+			(at 177.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "082d8f5e-7286-4777-bcb4-da4b51238f99")
 		)
@@ -49720,6 +49852,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
+			(at 194.31 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6dfb2b07-e8f2-4e35-9bdc-8626e3232746")
 		)
@@ -49911,6 +50054,17 @@
 			)
 		)
 		(property "LCSC P/N" "C92670"
+			(at 34.29 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "CC0603JRNPO9BN270"
 			(at 34.29 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -50191,6 +50345,17 @@
 			)
 		)
 		(property "LCSC P/N" "C14663"
+			(at 232.41 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
 			(at 232.41 34.29 0)
 			(hide yes)
 			(show_name no)

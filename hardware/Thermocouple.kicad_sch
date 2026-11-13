@@ -3206,6 +3206,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CC0603KRX7R9BB105"
+			(at 99.06 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5f74c2be-4e86-449a-8598-852125c3d8a0")
 		)
@@ -3398,6 +3409,17 @@
 			)
 		)
 		(property "LCSC P/N" "C1591"
+			(at 88.9 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
 			(at 88.9 27.94 0)
 			(hide yes)
 			(show_name no)

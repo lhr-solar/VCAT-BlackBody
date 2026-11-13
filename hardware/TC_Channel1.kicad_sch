@@ -1566,6 +1566,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CL10B104KB8NNNC"
+			(at 68.58 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92544399-4013-4844-9fee-82e3fe76317d")
 		)
@@ -2036,6 +2047,17 @@
 				)
 			)
 		)
+		(property "Mouser P/N" "CC0603KRX7R9BB103"
+			(at 55.88 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d4e77f04-bf85-49c1-b921-be13ab2e06d6")
 		)
@@ -2127,6 +2149,17 @@
 			)
 		)
 		(property "LCSC P/N" "C100042"
+			(at 55.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser P/N" "CC0603KRX7R9BB103"
 			(at 55.88 86.36 0)
 			(hide yes)
 			(show_name no)
