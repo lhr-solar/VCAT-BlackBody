@@ -5,4 +5,5 @@
 	(lib (name "lhrs_misc") (type "KiCad") (uri "${KIPRJMOD}/../../lib/KiCAD-Sharepoint/lhrs_misc.kicad_sym") (options "") (descr ""))
 	(lib (name "lhrs_power") (type "KiCad") (uri "${KIPRJMOD}/../../lib/KiCAD-Sharepoint/lhrs_power.kicad_sym") (options "") (descr ""))
 	(lib (name "lhrs_special") (type "KiCad") (uri "${KIPRJMOD}/../../lib/KiCAD-Sharepoint/lhrs_special.kicad_sym") (options "") (descr ""))
+	(lib (name "BlackBody") (type "KiCad") (uri "${KIPRJMOD}/../../lib/symbols/BlackBody.kicad_sym") (options "") (descr "Blackbody project symbols"))
 )
